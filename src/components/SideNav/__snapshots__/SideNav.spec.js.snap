@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideNav should match snapshot when rendering invalid item types 1`] = `
+.c0 {
+  width: 200px;
+  min-height: 200px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #939393;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`SideNav should match snapshot when rendering valid item types 1`] = `
+.c0 {
+  width: 200px;
+  min-height: 200px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #939393;
+}
+
+<div
+  className="c0"
+>
+  <SideNavListItem
+    isActive={true}
+    item={
+      Object {
+        "id": "components/buttons",
+        "label": "Buttons",
+        "type": "ListItem",
+        "url": "/components/buttons",
+      }
+    }
+  />
+  <SideNavSubMenu
+    currRoute="/components/buttons"
+    label="test2"
+    listItems={
+      Array [
+        Object {
+          "id": "components/subMenu1",
+          "label": "subMenu1",
+          "url": "/components/test",
+        },
+        Object {
+          "id": "components/subMenu2",
+          "label": "subMenu2",
+          "url": "/components/test",
+        },
+      ]
+    }
+  />
+</div>
+`;

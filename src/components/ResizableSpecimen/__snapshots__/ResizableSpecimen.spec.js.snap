@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResizableSpecimen should match snapshot when NOT responsive 1`] = `
+<div
+  class="sc-bZQynM iMWVsx"
+>
+  <span
+    class="sc-EHOje bGDYXH"
+  >
+    &lt;&gt;
+  </span>
+  <div
+    class="sc-bxivhb dhoNcC"
+  >
+    <div
+      style="position: relative; box-sizing: border-box; background-color: rgb(244, 245, 250); border-radius: 6px; padding: 20px 25px 20px 20px; width: auto; height: auto; min-width: 320; max-width: 0;"
+    >
+      <div
+        style="display: block;"
+      >
+        <div>
+          test
+        </div>
+      </div>
+      <span>
+        <div
+          style="position: absolute; width: 10px; height: 100%; top: 0px; right: -5px; cursor: col-resize;"
+        >
+          <div
+            class="sc-ifAKCX iygRPX"
+          />
+        </div>
+      </span>
+    </div>
+    <div
+      class="__resizable_base__"
+      style="width: 100%; height: 100%; position: absolute; transform: scale(0, 0); left: -2147483647px;"
+    />
+  </div>
+</div>
+`;
+
+exports[`ResizableSpecimen should match snapshot when responsive 1`] = `
+<div
+  class="sc-bZQynM iMWVsx"
+>
+  <span
+    class="sc-EHOje bGDYXH"
+  >
+    &lt;&gt;
+  </span>
+  <div
+    class="sc-bxivhb dhoNcC"
+  >
+    <div
+      style="position: relative; box-sizing: border-box; background-color: rgb(244, 245, 250); border-radius: 6px; padding: 20px 25px 20px 20px; width: auto; height: auto; min-width: 320; max-width: 0;"
+    >
+      <iframe
+        style="width: 100%; height: 0px;"
+        title="demo"
+      />
+      <div
+        style="display: none;"
+      >
+        <div>
+          test
+        </div>
+      </div>
+      <span>
+        <div
+          style="position: absolute; width: 10px; height: 100%; top: 0px; right: -5px; cursor: col-resize;"
+        >
+          <div
+            class="sc-ifAKCX iygRPX"
+          />
+        </div>
+      </span>
+    </div>
+    <div
+      class="__resizable_base__"
+      style="width: 100%; height: 100%; position: absolute; transform: scale(0, 0); left: -2147483647px;"
+    />
+  </div>
+</div>
+`;
+
+exports[`ResizableSpecimen should match snapshot when responsive and has nested react element 1`] = `
+<div
+  class="sc-bZQynM iMWVsx"
+>
+  <span
+    class="sc-EHOje bGDYXH"
+  >
+    &lt;&gt;
+  </span>
+  <div
+    class="sc-bxivhb dhoNcC"
+  >
+    <div
+      style="position: relative; box-sizing: border-box; background-color: rgb(244, 245, 250); border-radius: 6px; padding: 20px 25px 20px 20px; width: auto; height: auto; min-width: 320; max-width: 0;"
+    >
+      <iframe
+        style="width: 100%; height: 0px;"
+        title="demo"
+      />
+      <div
+        style="display: none;"
+      >
+        <div
+          class="sc-gzVnrw qErhy"
+        >
+          <div
+            class="sc-htoDjs bKYpwJ"
+          >
+            PRISM Logo
+          </div>
+          <div
+            class="sc-dnqmqq dHCrQG"
+          >
+            <div
+              class="sc-iwsKbI eFLAho"
+            >
+              <div>
+                Brand
+              </div>
+            </div>
+            <div
+              class="sc-iwsKbI eFLAho"
+            >
+              <div>
+                Product
+              </div>
+            </div>
+            <div
+              class="sc-iwsKbI eFLAho"
+            >
+              <div>
+                Marketing
+              </div>
+            </div>
+            <div
+              class="sc-iwsKbI fkIfaL"
+            >
+              <div>
+                Components
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span>
+        <div
+          style="position: absolute; width: 10px; height: 100%; top: 0px; right: -5px; cursor: col-resize;"
+        >
+          <div
+            class="sc-ifAKCX iygRPX"
+          />
+        </div>
+      </span>
+    </div>
+    <div
+      class="__resizable_base__"
+      style="width: 100%; height: 100%; position: absolute; transform: scale(0, 0); left: -2147483647px;"
+    />
+  </div>
+</div>
+`;

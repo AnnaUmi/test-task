@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table TDElement should match snapshot when we pass children 1`] = `
+.c0 {
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(51,51,51);
+  font-family: Roboto,sans-serif;
+  font-size: 16px;
+  line-height: 1.44;
+  text-align: left;
+  vertical-align: top;
+  padding: 16px 16px 16px 0;
+}
+
+.c1 {
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(51,51,51);
+  font-family: Roboto,sans-serif;
+  font-size: 16px;
+  line-height: 1.44;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  margin: 0;
+}
+
+<th
+  className="c0"
+  colSpan={3}
+  rowSpan={3}
+>
+  <p
+    className="c1"
+  >
+    test data
+  </p>
+</th>
+`;
+
+exports[`Table THElement should match snapshot 1`] = `
+.c0 {
+  font-style: normal;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(51,51,51);
+  font-family: Roboto,sans-serif;
+  font-size: 16px;
+  line-height: 1.44;
+  text-align: left;
+  vertical-align: top;
+  padding: 16px 16px 16px 0;
+}
+
+<th
+  className="c0"
+  colSpan={3}
+  rowSpan={3}
+>
+  test data
+</th>
+`;
+
+exports[`Table THeadElement should match snapshot 1`] = `
+.c0 {
+  border-bottom: 2px solid rgb(214,214,214);
+}
+
+<thead
+  className="c0"
+/>
+`;
+
+exports[`Table TRElement should match snapshot 1`] = `
+.c0 {
+  border-bottom: 1px solid rgb(214,214,214);
+}
+
+<tr
+  className="c0"
+/>
+`;
+
+exports[`Table TableComp should match snapshot 1`] = `
+.c0 {
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgb(51,51,51);
+  font-family: Roboto,sans-serif;
+  font-size: 16px;
+  border-collapse: collapse;
+  width: 100%;
+  border-bottom: none;
+}
+
+<table
+  className="c0"
+/>
+`;

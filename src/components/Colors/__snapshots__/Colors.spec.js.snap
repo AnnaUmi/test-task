@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Colors should render colors 1`] = `
+<div>
+  <h3>
+    Brand Colors
+  </h3>
+  <div
+    class="sc-epnACN jrRFwv"
+  >
+    <div>
+      <span>
+        Azure
+      </span>
+      <div
+        class="sc-hXRMBi kKPvGg"
+        color="rgba(2, 108, 223, 1)"
+      />
+    </div>
+    <div>
+      <span>
+        Pearl Black
+      </span>
+      <div
+        class="sc-hXRMBi hpgHNn"
+        color="#1F262D"
+      />
+    </div>
+  </div>
+</div>
+`;

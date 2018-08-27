@@ -1,0 +1,6 @@
+{
+  "name": "highlighted-code",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./HighlightedCode.js"
+}

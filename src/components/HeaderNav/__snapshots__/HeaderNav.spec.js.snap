@@ -1,0 +1,815 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderNav should match snapshot route is brand 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #d3d3d3;
+  padding: 0 20px;
+  height: 60px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  border: 1px dashed #696969;
+  padding: 5px 0;
+  min-width: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.c2 {
+  margin-left: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c4 {
+  margin-left: 40px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4:first-child {
+  margin-left: 0;
+}
+
+.c4:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  margin-top: 2px;
+  background-color: rgba(0,0,0,0);
+}
+
+.c4:hover:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  visibility: 'visible';
+  background-color: #696969;
+}
+
+.c3 {
+  margin-left: 40px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3:first-child {
+  margin-left: 0;
+}
+
+.c3:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  margin-top: 2px;
+  background-color: blue;
+}
+
+.c3:hover:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  visibility: 'visible';
+  background-color: blue;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onClick={[Function]}
+  >
+    PRISM Logo
+  </div>
+  <div
+    className="c2"
+  >
+    <div
+      className="c3"
+      onClick={[Function]}
+    >
+      <div>
+        Brand
+      </div>
+    </div>
+    <div
+      className="c4"
+      onClick={[Function]}
+    >
+      <div>
+        Product
+      </div>
+    </div>
+    <div
+      className="c4"
+      onClick={[Function]}
+    >
+      <div>
+        Marketing
+      </div>
+    </div>
+    <div
+      className="c4"
+      onClick={[Function]}
+    >
+      <div>
+        Components
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`HeaderNav should match snapshot route is buttons inside components 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #d3d3d3;
+  padding: 0 20px;
+  height: 60px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  border: 1px dashed #696969;
+  padding: 5px 0;
+  min-width: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.c2 {
+  margin-left: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  margin-left: 40px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3:first-child {
+  margin-left: 0;
+}
+
+.c3:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  margin-top: 2px;
+  background-color: rgba(0,0,0,0);
+}
+
+.c3:hover:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  visibility: 'visible';
+  background-color: #696969;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onClick={[Function]}
+  >
+    PRISM Logo
+  </div>
+  <div
+    className="c2"
+  >
+    <div
+      className="c3"
+      onClick={[Function]}
+    >
+      <div>
+        Brand
+      </div>
+    </div>
+    <div
+      className="c3"
+      onClick={[Function]}
+    >
+      <div>
+        Product
+      </div>
+    </div>
+    <div
+      className="c3"
+      onClick={[Function]}
+    >
+      <div>
+        Marketing
+      </div>
+    </div>
+    <div
+      className="c3"
+      onClick={[Function]}
+    >
+      <div>
+        Components
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`HeaderNav should match snapshot route is components 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #d3d3d3;
+  padding: 0 20px;
+  height: 60px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  border: 1px dashed #696969;
+  padding: 5px 0;
+  min-width: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.c2 {
+  margin-left: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  margin-left: 40px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3:first-child {
+  margin-left: 0;
+}
+
+.c3:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  margin-top: 2px;
+  background-color: rgba(0,0,0,0);
+}
+
+.c3:hover:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  visibility: 'visible';
+  background-color: #696969;
+}
+
+.c4 {
+  margin-left: 40px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4:first-child {
+  margin-left: 0;
+}
+
+.c4:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  margin-top: 2px;
+  background-color: blue;
+}
+
+.c4:hover:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  visibility: 'visible';
+  background-color: blue;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onClick={[Function]}
+  >
+    PRISM Logo
+  </div>
+  <div
+    className="c2"
+  >
+    <div
+      className="c3"
+      onClick={[Function]}
+    >
+      <div>
+        Brand
+      </div>
+    </div>
+    <div
+      className="c3"
+      onClick={[Function]}
+    >
+      <div>
+        Product
+      </div>
+    </div>
+    <div
+      className="c3"
+      onClick={[Function]}
+    >
+      <div>
+        Marketing
+      </div>
+    </div>
+    <div
+      className="c4"
+      onClick={[Function]}
+    >
+      <div>
+        Components
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`HeaderNav should match snapshot route is marketing 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #d3d3d3;
+  padding: 0 20px;
+  height: 60px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  border: 1px dashed #696969;
+  padding: 5px 0;
+  min-width: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.c2 {
+  margin-left: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  margin-left: 40px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3:first-child {
+  margin-left: 0;
+}
+
+.c3:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  margin-top: 2px;
+  background-color: rgba(0,0,0,0);
+}
+
+.c3:hover:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  visibility: 'visible';
+  background-color: #696969;
+}
+
+.c4 {
+  margin-left: 40px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4:first-child {
+  margin-left: 0;
+}
+
+.c4:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  margin-top: 2px;
+  background-color: blue;
+}
+
+.c4:hover:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  visibility: 'visible';
+  background-color: blue;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onClick={[Function]}
+  >
+    PRISM Logo
+  </div>
+  <div
+    className="c2"
+  >
+    <div
+      className="c3"
+      onClick={[Function]}
+    >
+      <div>
+        Brand
+      </div>
+    </div>
+    <div
+      className="c3"
+      onClick={[Function]}
+    >
+      <div>
+        Product
+      </div>
+    </div>
+    <div
+      className="c4"
+      onClick={[Function]}
+    >
+      <div>
+        Marketing
+      </div>
+    </div>
+    <div
+      className="c3"
+      onClick={[Function]}
+    >
+      <div>
+        Components
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`HeaderNav should match snapshot route is product 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #d3d3d3;
+  padding: 0 20px;
+  height: 60px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  border: 1px dashed #696969;
+  padding: 5px 0;
+  min-width: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.c2 {
+  margin-left: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  margin-left: 40px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3:first-child {
+  margin-left: 0;
+}
+
+.c3:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  margin-top: 2px;
+  background-color: rgba(0,0,0,0);
+}
+
+.c3:hover:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  visibility: 'visible';
+  background-color: #696969;
+}
+
+.c4 {
+  margin-left: 40px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c4:first-child {
+  margin-left: 0;
+}
+
+.c4:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  margin-top: 2px;
+  background-color: blue;
+}
+
+.c4:hover:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  visibility: 'visible';
+  background-color: blue;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onClick={[Function]}
+  >
+    PRISM Logo
+  </div>
+  <div
+    className="c2"
+  >
+    <div
+      className="c3"
+      onClick={[Function]}
+    >
+      <div>
+        Brand
+      </div>
+    </div>
+    <div
+      className="c4"
+      onClick={[Function]}
+    >
+      <div>
+        Product
+      </div>
+    </div>
+    <div
+      className="c3"
+      onClick={[Function]}
+    >
+      <div>
+        Marketing
+      </div>
+    </div>
+    <div
+      className="c3"
+      onClick={[Function]}
+    >
+      <div>
+        Components
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`HeaderNav should match snapshot route is root 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #d3d3d3;
+  padding: 0 20px;
+  height: 60px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c1 {
+  border: 1px dashed #696969;
+  padding: 5px 0;
+  min-width: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.c2 {
+  margin-left: 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c3 {
+  margin-left: 40px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3:first-child {
+  margin-left: 0;
+}
+
+.c3:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  margin-top: 2px;
+  background-color: rgba(0,0,0,0);
+}
+
+.c3:hover:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 2px;
+  visibility: 'visible';
+  background-color: #696969;
+}
+
+<div
+  className="c0"
+>
+  <div
+    className="c1"
+    onClick={[Function]}
+  >
+    PRISM Logo
+  </div>
+  <div
+    className="c2"
+  >
+    <div
+      className="c3"
+      onClick={[Function]}
+    >
+      <div>
+        Brand
+      </div>
+    </div>
+    <div
+      className="c3"
+      onClick={[Function]}
+    >
+      <div>
+        Product
+      </div>
+    </div>
+    <div
+      className="c3"
+      onClick={[Function]}
+    >
+      <div>
+        Marketing
+      </div>
+    </div>
+    <div
+      className="c3"
+      onClick={[Function]}
+    >
+      <div>
+        Components
+      </div>
+    </div>
+  </div>
+</div>
+`;

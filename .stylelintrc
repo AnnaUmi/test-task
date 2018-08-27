@@ -1,0 +1,13 @@
+{
+  "processors": ["stylelint-processor-styled-components"],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-styled-components"
+  ],
+  "rules": {
+    "value-list-max-empty-lines": null,
+    "declaration-colon-newline-after": null,
+    "selector-pseudo-element-colon-notation": "single",
+  },
+  "syntax": "scss"
+}

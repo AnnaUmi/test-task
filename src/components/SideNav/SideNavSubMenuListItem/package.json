@@ -1,0 +1,6 @@
+{
+  "name": "side-nav-sub-menu-list-item",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SideNavSubMenuListItem.js"
+}

@@ -1,0 +1,68 @@
+import { Container, Row, Column } from '@ticketmaster/prism';
+import Resizable from '../components/ResizableSpecimen';
+import { contentStyles } from '../../pages/components/grid';
+
+### Container, Row & Columns
+
+A number of different column widths & combinations can be used to create layouts.
+
+By default columns are 100% width which is the equivalent of 12/12
+
+<Resizable>
+  <Container>
+      <Row>
+          <Column><p style={contentStyles}>Default Column</p></Column>
+      </Row>
+  </Container>
+</Resizable>
+
+### Props
+
++-----------+----------+---------+-----------------------------------+
+| Prop      | Type     | Default | Notes                             |
++===========+==========+=========+===================================+
+| small     | number   |   12    | Sets the base size for columns    |
++-----------+----------+---------+-----------------------------------+
+| medium    | number   |         | When not provided "small"         |
+|           |          |         | is used instead                   |
++-----------+----------+---------+-----------------------------------+
+| large     | number   |         | When not provided "medium"        |
+|           |          |         | is used instead then "small"      |
++-----------+----------+---------+-----------------------------------+
+| xLarge    | number   |         | When not provided "large" is used |
+|           |          |         | instead then "medium", etc...     |
++-----------+----------+---------+-----------------------------------+
+
+### Layout Examples
+
+<Resizable responsive>
+  <div>
+    <Container style={{ paddingBottom: "20px" }}>
+        <Row>
+            <Column small={12} medium={6}><p style={contentStyles}>One</p></Column>
+            <Column small={12} medium={6}><p style={contentStyles}>Two</p></Column>
+        </Row>
+    </Container>
+    <Container style={{ paddingBottom: "20px" }}>
+        <Row>
+            <Column small={2}><p style={contentStyles}>One</p></Column>
+            <Column small={4}><p style={contentStyles}>Two</p></Column>
+            <Column small={2}><p style={contentStyles}>Three</p></Column>
+            <Column small={4}><p style={contentStyles}>Four</p></Column>
+        </Row>
+    </Container>
+    <Container style={{ paddingBottom: "20px" }}>
+        <Row>
+            <Column medium={5}><p style={contentStyles}>One</p></Column>
+            <Column medium={2}><p style={contentStyles}>Two</p></Column>
+            <Column medium={2}><p style={contentStyles}>Three</p></Column>
+            <Column medium={2}><p style={contentStyles}>Four</p></Column>
+            <Column medium={1}><p style={contentStyles}>Five</p></Column>
+        </Row>
+    </Container>
+  </div>
+</Resizable>
+
+```hint
+In order to achieve the correct gutter size `Container`, `Row`, `Colum` should be used together
+```

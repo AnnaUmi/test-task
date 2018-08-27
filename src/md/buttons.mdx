@@ -1,0 +1,130 @@
+import { ThemeProvider } from "styled-components";
+
+import Resizable from '../components/ResizableSpecimen';
+import { Button, Container, Row, Column, Spacing } from '@ticketmaster/prism';
+
+### Button
+
+Button Component with a standard, outline, and transparent variants available.
+
+### Props
+
++-----------+----------+---------+------------------------------------------------+
+| Prop      | Type     | Default | Notes                                          |
++===========+==========+=========+================================================+
+| variant   | string   |standard | Determines style variant. Possible variants are|
+|           |          |         | `standard`, `special`, `outline`, `transparent`|
++-----------+----------+---------+------------------------------------------------+
+| size      | string   |regular  | Determines button size. Possible sizes are     |
+|           |          |         | `small`, `regular`, `large`                    |
++-----------+----------+---------+------------------------------------------------+
+| children  | node     |         | Render as the Button’s                         |
+|           |          |         | children                                       |
++-----------+----------+---------+------------------------------------------------+
+| …props    | any      |         | Passes through any other                       |
+|           |          |         | props to underlying                            |
+|           |          |         | button, or in the case                         |
+|           |          |         | of an href prop being                          |
+|           |          |         | passed, anchor, element                        |
++-----------+----------+---------+------------------------------------------------+
+
+
+### Standard
+
+<Resizable responsive>
+  <ThemeProvider theme={{ themeName: 'b2c' }}>
+    <Container>
+        <Row>
+            <Column small={2} medium={4} large={5}/>
+            <Column small={8} medium={4} large={3}>
+                <Button size="small">My cool button</Button>
+                <Spacing top={{small: "moderate"}}>
+                    <Button>My cool button</Button>
+                </Spacing>
+                <Spacing top={{small: "moderate"}}>
+                    <Button size="large">My cool button</Button>
+                </Spacing>
+                <Spacing top={{small: "moderate"}}>
+                    <Button size="large" disabled>My cool button</Button>
+                </Spacing>
+            </Column>
+        </Row>
+    </Container>
+  </ThemeProvider>
+</Resizable>
+
+### Special
+
+<Resizable responsive>
+  <ThemeProvider theme={{ themeName: 'b2c' }}>
+      <Container>
+          <Row>
+            <Column small={2} medium={4} large={5}/>
+            <Column small={8} medium={4} large={3}>
+                  <Button variant="special" size="small">My cool button</Button>
+                  <Spacing top={{small: "moderate"}}>
+                      <Button variant="special">My cool button</Button>
+                  </Spacing>
+                  <Spacing top={{small: "moderate"}}>
+                      <Button variant="special" size="large">My cool button</Button>
+                  </Spacing>
+                  <Spacing top={{small: "moderate"}}>
+                      <Button variant="special" size="large" disabled>My cool button</Button>
+                  </Spacing>
+              </Column>
+          </Row>
+      </Container>
+  </ThemeProvider>
+</Resizable>
+
+
+### Outline
+
+<Resizable responsive>
+  <ThemeProvider theme={{ themeName: 'b2c' }}>
+      <Container>
+          <Row>
+            <Column small={2} medium={4} large={5}/>
+            <Column small={8} medium={4} large={3}>
+                <Button variant="outline" size="small">My cool button</Button>
+                <Spacing top={{small: "moderate"}}>
+                    <Button variant="outline">My cool button</Button>
+                </Spacing>
+                <Spacing top={{small: "moderate"}}>
+                    <Button variant="outline" size="large">My cool button</Button>
+                </Spacing>
+                <Spacing top={{small: "moderate"}}>
+                    <Button variant="outline" size="large" disabled>My cool button</Button>
+                </Spacing>
+            </Column>
+          </Row>
+      </Container>
+  </ThemeProvider>
+</Resizable>
+
+
+### Transparent
+
+<Resizable responsive>
+  <ThemeProvider theme={{ themeName: 'b2c' }}>
+      <Container>
+          <Row>
+            <Column small={2} medium={4} large={5}/>
+            <Column small={8} medium={4} large={3}>
+              <Spacing top={{small: "moderate"}}>
+                <Button variant="transparent" size="small">My cool button</Button>
+              </Spacing>
+              <Spacing top={{small: "moderate"}}>
+                  <Button variant="transparent">My cool button</Button>
+              </Spacing>
+              <Spacing top={{small: "moderate"}}>
+                  <Button variant="transparent" size="large">My cool button</Button>
+              </Spacing>
+              <Spacing top={{small: "moderate"}}>
+                  <Button variant="transparent" size="large" disabled>My cool button</Button>
+              </Spacing>
+            </Column>
+          </Row>
+      </Container>
+  </ThemeProvider>
+</Resizable>

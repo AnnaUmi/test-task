@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Code should match snapshot when className is different from language-hint 1`] = `
+<code
+  className="language-js"
+  id="codes"
+  style={
+    Object {
+      "fontWeight": 600,
+    }
+  }
+>
+  
+</code>
+`;
+
+exports[`Code should match snapshot when className is language-hint 1`] = `
+<HintComponent>
+  
+</HintComponent>
+`;

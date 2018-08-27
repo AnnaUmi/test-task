@@ -1,0 +1,77 @@
+import { Spacing, spacing, Container, Row, colors } from '@ticketmaster/prism';
+import Resizable from '../components/ResizableSpecimen';
+import { contentStyles } from '../../pages/components/grid';
+
+### Spacing
+
+Spacing component is a wrapper component that adds top/bottom padding and allows the developer
+to define spacing behavour on different screen sizes
+
+### Props
+
++-----------+---------------+---------+------------------------------+
+| Prop      | Type          | Default | Notes                        |
++===========+===============+=========+==============================+
+| top       | spacingObject |   {}    | Sets top padding             |
++-----------+---------------+---------+------------------------------+
+| bottom    | spacingObject |   {}    | Sets bottom padding          |
++-----------+---------------+---------+------------------------------+
+
+spacingObject = {
+  xSmall: String,
+  small: String,
+  medium: String,
+  large: String
+}
+
+### Static spacing example
+
+<Resizable>
+  <Container>
+    <Row>
+      <div style={{ fontWeight: 'bold' }}>Slim - 4px</div>
+      <Spacing top={{ xSmall: 'slim' }} style={{ backgroundColor: colors.azure.restrained }} />
+      <Spacing bottom={{ xSmall: 'normal' }} />
+      <div style={{ fontWeight: 'bold' }}>Cozy - 8px</div>
+      <Spacing top={{ xSmall: 'cozy' }} style={{ backgroundColor: colors.azure.restrained }} />
+      <Spacing bottom={{ xSmall: 'normal' }} />
+      <div style={{ fontWeight: 'bold' }}>Moderate - 16px</div>
+      <Spacing top={{ xSmall: 'moderate' }} style={{ backgroundColor: colors.azure.restrained }} />
+      <Spacing bottom={{ xSmall: 'normal' }} />
+      <div style={{ fontWeight: 'bold' }}>Normal - 24px</div>
+      <Spacing top={{ xSmall: 'normal' }} style={{ backgroundColor: colors.azure.restrained }} />
+      <Spacing bottom={{ xSmall: 'normal' }} />
+      <div style={{ fontWeight: 'bold' }}>Comfy - 32px</div>
+      <Spacing top={{ xSmall: 'comfy' }} style={{ backgroundColor: colors.azure.restrained }} />
+      <Spacing bottom={{ xSmall: 'normal' }} />
+      <div style={{ fontWeight: 'bold' }}>Spacious - 48px</div>
+      <Spacing top={{ xSmall: 'spacious' }} style={{ backgroundColor: colors.azure.restrained }} />
+      <Spacing bottom={{ xSmall: 'normal' }} />
+      <div style={{ fontWeight: 'bold' }}>Giant - 64px</div>
+      <Spacing top={{ xSmall: 'giant' }} style={{ backgroundColor: colors.azure.restrained }} />
+      <Spacing bottom={{ xSmall: 'normal' }} />
+      <div style={{ fontWeight: 'bold' }}>Colossal - 88px</div>
+      <Spacing top={{ xSmall: 'colossal' }} style={{ backgroundColor: colors.azure.restrained }} />
+  </Row>
+  </Container>
+</Resizable>
+
+
+### Resizable spacing usage
+
+
+<Resizable responsive>
+  <Container>
+    <Row>
+      <Spacing
+        top={{
+          xSmall: 'slim',
+          small: 'moderate',
+          medium: 'comfy',
+          large: 'giant',
+         }}
+        style={{ backgroundColor: colors.azure.restrained }}
+      />
+    </Row>
+  </Container>
+</Resizable>

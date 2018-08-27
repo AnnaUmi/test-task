@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideNavSubMenuListItem should match snapshot when is active 1`] = `
+.c0 {
+  padding: 20px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #7e7e7e;
+  font-weight: bold;
+}
+
+.c0:hover {
+  background-color: #bdbdbd;
+}
+
+.c2 {
+  padding: 20px 60px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #7e7e7e;
+  font-weight: bold;
+}
+
+.c2:hover {
+  background-color: #bdbdbd;
+}
+
+.c1 {
+  background-color: #d3d3d3;
+}
+
+<div>
+  <div
+    className="c0"
+    onClick={[Function]}
+  >
+    test label
+  </div>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      onClick={[Function]}
+    >
+      test sub item
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SideNavSubMenuListItem should match snapshot when not active 1`] = `
+.c0 {
+  padding: 20px 30px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.c0:hover {
+  background-color: #bdbdbd;
+}
+
+.c2 {
+  padding: 20px 60px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.c2:hover {
+  background-color: #bdbdbd;
+}
+
+.c1 {
+  background-color: #d3d3d3;
+  height: 0;
+  overflow: hidden;
+}
+
+<div>
+  <div
+    className="c0"
+    onClick={[Function]}
+  >
+    test label
+  </div>
+  <div
+    className="c1"
+  >
+    <div
+      className="c2"
+      onClick={[Function]}
+    >
+      test sub item
+    </div>
+  </div>
+</div>
+`;
