@@ -59,6 +59,12 @@ const componentsSideNav = [
     id: 'components/colors',
     url: '/components/colors',
   },
+  {
+    type: SIDE_NAV_ITEM_TYPES.ListItem,
+    label: 'Breadcrumbs',
+    id: 'components/breadcrumbs',
+    url: '/components/breadcrumbs',
+  },
 ];
 
 export const SIDE_NAV_ROUTES = {
